@@ -1,5 +1,9 @@
-import { defineConfig } from '@micra/vite-config/library';
+import {defineConfig} from '@micra/vite-config/library';
 
 export default defineConfig({
-  plugins: [],
+  build: {
+    rollupOptions: {
+      external: ['@micra/event-emitter', '@micra/error'],
+    },
+  },
 });
