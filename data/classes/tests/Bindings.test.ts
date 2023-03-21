@@ -1,5 +1,5 @@
 import {Bindings} from '../Bindings';
-import {BindingFactory} from '@/testing/factories';
+import {BindingFactory} from '../../../testing/factories';
 
 describe('Bindings tests', () => {
   it('should create a new binding', () => {
